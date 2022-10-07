@@ -1,0 +1,11 @@
+
+.home{
+    color: rgb(8, 5, 1);
+    padding: auto;
+    border: black;
+    margin: auto;
+    background-color: rgb(151, 169, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,10 @@
+
+table,th,td{
+    border: 1px solid;
+    width: 1px;
+    padding: 20px;
+    background-color: rgb(134, 143, 226);
+    font-size: 10px;
+    font-style: inherit;
+    
+}

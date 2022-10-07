@@ -1,0 +1,29 @@
+<div class="table_responsive" >
+    <table>
+        <thead>
+            <tr>
+                <th>Patient name</th>
+                <th>Contact</th>
+                <th>Doctor ID</th>
+                <th>Slot ID</th>
+                <th>appointment Time</th>
+                <th>Appointment Data</th>
+            </tr>
+        </thead>
+    <tbody *ngFor="let a of appoinmentArray">
+        <tr>
+            <td>{{a.name}}</td>
+            <td>{{a.contact}}</td>
+            <td>{{a.doctorId}}</td>
+            <td>{{a.slotId}}</td>
+            <td>{{a.apptDate}}</td>
+     <td>
+         <span class="action_btn">
+             <a >Booked</a>
+        </span>
+    </td>
+    <br />
+    </tr>
+    </tbody>
+    </table>
+</div>

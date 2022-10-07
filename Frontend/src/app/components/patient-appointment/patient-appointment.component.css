@@ -1,0 +1,14 @@
+form {
+
+    border: 3px solid rgb(48, 3, 3);
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    padding: 10px;
+    background-color: rgb(187, 216, 245);
+    border-bottom: 2px solid rgb(68, 19, 19);
+    border-radius: 10px;
+  }
+  body{
+    background-color: rgb(40, 53, 66);
+  }
